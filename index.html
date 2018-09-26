@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <title>weather for location</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="/app.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Check weather for location</h1>
+        </header>
+        <section class="searchCity">
+
+            <input type="text" id="cityvalue">
+            <input type="submit" value="search">
+            <input type="submit" id="search-location" value="Search by your location">
+
+            <div>
+                <div class="temperature"></div>
+                <div class="city"></div>
+                <div class="icon"></div>
+            </div>
+        </section>
+        <section>
+            <div class="humidity"></div>
+            <div class="pressure"></div>
+            <div class="speed-wind"></div>
+        </section>
+
+    </div>
+    <footer>
+        <div> Weather App created by Ada Płoska </div>
+
+    </footer>
+
+</body>
+
+</html>

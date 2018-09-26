@@ -1,0 +1,147 @@
+body {
+  background-image: url("/images/sunset.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  font-family: "Merriweather", serif;
+  color: #8e8b8d;
+  font-weight: 900;
+}
+
+.container {
+  padding: 5%;
+  width: 50vw;
+  margin-top: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 6px 6px #ccc0c2;
+  -moz-box-shadow: 0px 0px 6px 6px #ccc0c2;
+  box-shadow: 0px 0px 6px 6px #ccc0c2;
+}
+h1 {
+  text-align: center;
+}
+input {
+  padding: 5px 10px;
+  border-radius: 5px;
+  background: #bcc6e5;
+  color: #8e8b8d;
+  font-size: 1.2em;
+  border: none;
+  margin: 1%;
+}
+
+.temperature,
+.city {
+  font-weight: 900;
+  font-size: 1.5em;
+  float: left;
+  padding: 2%;
+  margin-left: 4%;
+  margin-top: 1%;
+}
+
+.humidity,
+.pressure,
+.speed-wind {
+  margin-top: 1%;
+  padding: 1%;
+  display: inline-block;
+}
+footer {
+  text-align: center;
+  margin: 1em;
+}
+@media all and (max-width: 480px) {
+  .container {
+    h1 {
+      text-align: center;
+      font-size: 16px;
+    }
+    input {
+      font-size: 0.6em;
+    }
+    .temperature,
+    .city {
+      font-size: 1em;
+    }
+    .humidity,
+    .pressure,
+    .speed-wind {
+      font-size: 0.6em;
+    }
+  }
+  footer {
+    font-size: 0.5em;
+  }
+}
+@media (min-width: 481px) and (max-width: 580px) {
+  .container {
+    h1 {
+      text-align: center;
+      font-size: 16px;
+    }
+    input {
+      font-size: 0.7em;
+    }
+    .temperature,
+    .city {
+      font-size: 1em;
+    }
+    .humidity,
+    .pressure,
+    .speed-wind {
+      font-size: 0.6em;
+    }
+  }
+}
+@media (min-width: 581px) and (max-width: 736px) {
+  .container {
+    h1 {
+      text-align: center;
+      font-size: 22px;
+    }
+    input {
+      font-size: 0.7em;
+    }
+    .temperature,
+    .city {
+      font-size: 1.3em;
+    }
+    .humidity,
+    .pressure,
+    .speed-wind {
+      font-size: 1em;
+    }
+  }
+}
+@media (min-width: 738px) and (max-width: 959px) {
+  .container {
+    h1 {
+      text-align: center;
+      font-size: 27px;
+    }
+    input {
+      font-size: 0.9em;
+    }
+    .temperature,
+    .city {
+      font-size: 1.5em;
+    }
+  }
+}
+@media (min-width: 960px) and (max-width: 1213px) {
+  .container {
+    h1 {
+      text-align: center;
+      font-size: 27px;
+    }
+    input {
+      font-size: 0.9em;
+    }
+    .temperature,
+    .city {
+      font-size: 1.5em;
+    }
+  }
+}
