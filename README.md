@@ -8,11 +8,11 @@ App show  weather for current location and you can put any cities.
 
 
 ### Built with
-*JQUERY
-*HTML
-*SASS/CSS
-*AXIOS
-*GULP
+* JQUERY
+* HTML
+* SASS/CSS
+* AXIOS
+* GULP
 
 ### Setup
 
