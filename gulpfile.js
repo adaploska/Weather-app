@@ -23,7 +23,8 @@ gulp.task("sass", function() {
     )
     .pipe(sourcemaps.write())
     .pipe(gulp.dest("css"))
-    .pipe(browserSync.stream());
+    .pipe(browserSync.stream())
+    .pipe(gulp.dest("build"));
 });
 
 gulp.task("default", ["serve"]);
